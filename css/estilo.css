@@ -1,0 +1,164 @@
+/*cabeçalho*/
+nav .navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+
+#navbarSupportedContent form input{
+    
+    border-color: rgba(204, 171, 212, 1);
+    
+}
+
+#navbarSupportedContent button{
+    border-color: rgba(204, 171, 212, 1);
+}
+#navbarSupportedContent button:hover{
+    background-color:rgba(204, 171, 212, 1);
+}
+
+#navbarSupportedContent button img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    
+}
+/*Conteudo principal*/
+
+/*banner*/
+
+#carouselExampleCaptions div div div h5{
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    margin-top:  10px;
+    margin-bottom: 50px;
+
+}
+#carouselExampleCaptions div div div p{
+    background-color: white;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#carouselExampleCaptions div div div button{
+    width: 120px;
+    height: 50px;
+}
+div .carousel-caption.d-none.d-md-block{
+   
+    width: 485px;
+    height: 350px;
+    left: 60%;
+    background-color: white;
+    text-align: center;
+    bottom: 20%;
+    border: 1px solid black;
+    border-bottom-left-radius: 80px;
+    margin: 20px;
+    border-color: black;
+
+}
+div .carousel-caption.d-none.d-md-block img{
+    width: 15px;
+    height: 12px;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos{
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(241, 238, 238);
+   height: 600px;
+   padding-top: 90px;
+   padding-bottom: 65px;
+   text-align: center;
+}
+#section-vendidos .card{
+    border-color: #fff;
+}
+#section-vendidos button img{
+    width: 12px;
+    height: 12px;
+}
+
+#section-vendidos-call-to-action{
+    border-radius: 5px;
+    background-color: white;
+}
+button{
+    border-color:black;
+    background-color: #fff;
+    transition: 1s;
+   
+    border-radius: 5px;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(197, 138, 212);
+    border-color: rgba(204, 171, 212, 1);
+    color: white;
+    box-shadow: none;
+    
+}
+.btn.btn-primary{
+    background-color: rgb(197, 138, 212);
+    border-color: rgba(204, 171, 212, 1);
+}
+.btn.btn-primary:hover{
+    transition: 1s;
+    background-color: rgb(109, 47, 124);
+    border-color: rgb(109, 47, 124);
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+footer p{
+    font-weight: bold;
+    padding: 10px;
+}
+/*Botão Voltar topo*/
+
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+.bi.flex-shrink-0.me-2{
+width: 50px;
+height: 50px;
+padding: 10px;
+
+}
+#section-login #alert-success{
+display: none
+}
+
+#section-login{
+    margin-top: 100px;
+}
+#section-login h1{
+    text-align: center;
+}
+#section-login input{
+    width: 100%;
+}
+/* Formulário de cadastro*/
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+    
+}
+
